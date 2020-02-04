@@ -11,9 +11,9 @@ public class TextQuestGame : MonoBehaviour
 
     [Header("Config")]
     [Tooltip("Название игры")] public string title = "Game Title";
-
+    //Просто так :)
     [TextArea(minLines:10,maxLines:15)] public string content = "Перед вами 2 выхода:   \n 1.Выход один \n 2.Выход два \n 3.Выйти";
-    // Start is called before the first frame update
+    
     void Start()
     {
         titleText.text = title;
